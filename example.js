@@ -51,7 +51,7 @@ client.on('message', async msg => {
         // Send a new message as a reply to the current one
         msg.reply('pong');
 
-    } else if (msg.body === '!ricardo') {
+    } else if (msg.body === '!ricarditoo') {
         // Send a new message to the same chat
 
         for (var i = 0; i < 5; i++) {
